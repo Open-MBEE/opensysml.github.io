@@ -203,11 +203,6 @@
   .wire.w1{animation-delay:0.05s;}
   .wire.w2{animation-delay:0.25s;}
   .wire.w3{animation-delay:0.45s;}
-  .wire-label{
-    font-family:'IBM Plex Mono', monospace;
-    fill:var(--cyan);
-    font-size:11px;
-  }
   @keyframes draw{
     from{stroke-dasharray:6 2000; stroke-dashoffset:0; opacity:0;}
     to{stroke-dasharray:2000 0; stroke-dashoffset:0; opacity:1;}
@@ -484,10 +479,6 @@
       <path class="wire w1" d="M450,255 C380,190 300,150 210,120" />
       <path class="wire w2" d="M450,255 C520,190 600,150 690,120" />
       <path class="wire w3" d="M450,255 C450,320 450,360 450,395" />
-
-      <text class="wire-label" x="290" y="165" text-anchor="middle">interchange JSON / CBOR</text>
-      <text class="wire-label" x="612" y="165" text-anchor="middle">LSP · REPL · runtime</text>
-      <text class="wire-label" x="468" y="335" text-anchor="middle">grammar &amp; stdlib</text>
 
       <!-- hub: Flexo MMS -->
       <rect class="node-box hub" x="360" y="225" width="180" height="60" />
